@@ -26,7 +26,7 @@ namespace TinyPG.Controls
                 if (assembly != null)
                 {
                     object[] customAttributes = assembly.GetCustomAttributes(typeof(AssemblyCompanyAttribute), false);
-                    if ((customAttributes != null) && (customAttributes.Length > 0))
+                    if ((customAttributes.Length > 0))
                     {
                         companyName = ((AssemblyCompanyAttribute)customAttributes[0]).Company;
                     }
@@ -48,7 +48,7 @@ namespace TinyPG.Controls
                 if (assembly != null)
                 {
                     object[] customAttributes = assembly.GetCustomAttributes(typeof(AssemblyVersionAttribute), false);
-                    if ((customAttributes != null) && (customAttributes.Length > 0))
+                    if ((customAttributes.Length > 0))
                     {
                         productVersion = ((AssemblyVersionAttribute)customAttributes[0]).Version;
                     }
@@ -70,7 +70,7 @@ namespace TinyPG.Controls
                 if (assembly != null)
                 {
                     object[] customAttributes = assembly.GetCustomAttributes(typeof(AssemblyProductAttribute), false);
-                    if ((customAttributes != null) && (customAttributes.Length > 0))
+                    if ((customAttributes.Length > 0))
                     {
                         productName = ((AssemblyProductAttribute)customAttributes[0]).Product;
                     }
@@ -92,7 +92,7 @@ namespace TinyPG.Controls
                 if (assembly != null)
                 {
                     object[] customAttributes = assembly.GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
-                    if ((customAttributes != null) && (customAttributes.Length > 0))
+                    if ((customAttributes.Length > 0))
                     {
                         copyRightsDetail = ((AssemblyCopyrightAttribute)customAttributes[0]).Copyright;
                     }
@@ -114,7 +114,7 @@ namespace TinyPG.Controls
                 if (assembly != null)
                 {
                     object[] customAttributes = assembly.GetCustomAttributes(typeof(AssemblyTitleAttribute), false);
-                    if ((customAttributes != null) && (customAttributes.Length > 0))
+                    if ((customAttributes.Length > 0))
                     {
                         productTitle = ((AssemblyTitleAttribute)customAttributes[0]).Title;
                     }
@@ -136,7 +136,7 @@ namespace TinyPG.Controls
                 if (assembly != null)
                 {
                     object[] customAttributes = assembly.GetCustomAttributes(typeof(AssemblyDescriptionAttribute), false);
-                    if ((customAttributes != null) && (customAttributes.Length > 0))
+                    if ((customAttributes.Length > 0))
                     {
                         productDescription = ((AssemblyDescriptionAttribute)customAttributes[0]).Description;
                     }

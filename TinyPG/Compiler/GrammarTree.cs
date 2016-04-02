@@ -152,7 +152,7 @@ namespace TinyPG.Compiler
                     if (g.Directives.Find(name) != null)
                     {
                         tree.Errors.Add(new ParseError("Directive '" + name + "' is already defined", 0x1030, node.Nodes[1]));
-                        return null; ;
+                        return null;
                     }
                     break;
                 default:
