@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=parser_002Ecs/@EntryIndexedValue">parser.cs</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=parsetree_002Ecs/@EntryIndexedValue">parsetree.cs</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=scanner_002Ecs/@EntryIndexedValue">scanner.cs</s:String>
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=F7E0847CD77C584F85EFD30ECCF32DC0/AbsolutePath/@EntryValue">C:\Users\dbremner\Documents\GitHub\TinyPG\TinyPG\tinypg.DotSettings</s:String>
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=F7E0847CD77C584F85EFD30ECCF32DC0/RelativePath/@EntryValue">..\tinypg.DotSettings</s:String>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=F7E0847CD77C584F85EFD30ECCF32DC0/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=FileF7E0847CD77C584F85EFD30ECCF32DC0/@KeyIndexDefined">True</s:Boolean>
+	<s:Double x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=FileF7E0847CD77C584F85EFD30ECCF32DC0/RelativePriority/@EntryValue">1</s:Double></wpf:ResourceDictionary>
