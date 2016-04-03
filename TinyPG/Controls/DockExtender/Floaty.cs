@@ -166,17 +166,6 @@ namespace TinyPG.Controls
             base.WndProc(ref m);
         }
 
-        protected override void OnResizeBegin(EventArgs e)
-        {
-            base.OnResizeBegin(e);
-        }
-
-        protected override void OnResize(EventArgs e)
-        {
-            
-            base.OnResize(e);
-        }
-
         protected override void OnResizeEnd(EventArgs e)
         {
             
