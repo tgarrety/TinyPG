@@ -56,8 +56,6 @@ namespace TinyPG.CodeGenerators
                             return new CSharp.ScannerGenerator();
                         case "ParseTree":
                             return new CSharp.ParseTreeGenerator();
-                        case "TextHighlighter":
-                            return new CSharp.TextHighlighterGenerator();
                     }
                     break;
             }
