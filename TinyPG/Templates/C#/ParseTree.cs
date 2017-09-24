@@ -59,6 +59,12 @@ namespace <%Namespace%>
             this.pos = pos;
             this.length = length;
         }
+
+		public override string ToString()
+		{
+		    return string.Format("({0},{1}): {2}", Line, Column, Message);
+		}
+
     }
 
     // rootlevel of the node tree
