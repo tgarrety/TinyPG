@@ -6,6 +6,8 @@ using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 
+#pragma warning disable 0649
+
 namespace <%Namespace%>
 {
     #region Scanner
